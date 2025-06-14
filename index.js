@@ -1,4 +1,4 @@
-const { ForgeClient } = require("@tryforge/forgescript")
+const { ForgeClient } = require("@tryforge/forgescript");
 require('dotenv').config();
 const express = require("express");
 const app = express();
@@ -11,7 +11,7 @@ app.listen(5000, () => {})
 
 const client = new ForgeClient({
     intents: ["GuildMessages","Guilds","MessageContent"],
-    events: ["messageCreate","ready"],
+    events: ["messageCreate","ready","interactionCreate"],
     prefixes: ["s!"]
 })
 
@@ -21,4 +21,4 @@ client.login(process.env.TOKEN).catch(err => {
 });
 
 client.commands.load("./Commadns");
-client.events.load("./Events");
+client.commands.load("./Events");
