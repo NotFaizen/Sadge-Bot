@@ -4,5 +4,26 @@
     "chalk": "^5.4.1",
     "dotenv": "^16.5.0",
     "express": "^5.1.0"
-  }
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "name": "faizen-bot-stuff",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NotFaizen/Sadge-Bot.git"
+  },
+  "keywords": [
+    "discord-bot"
+  ],
+  "author": "NotFaizen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NotFaizen/Sadge-Bot/issues"
+  },
+  "homepage": "https://github.com/NotFaizen/Sadge-Bot#readme",
+  "description": ""
 }
