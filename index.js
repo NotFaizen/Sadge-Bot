@@ -24,7 +24,7 @@ app.listen(PORT, () => {
 
 const client = new ForgeClient({
     intents: ["GuildMessages","Guilds","MessageContent"],
-    events: ["messageCreate","ready","interactionCreate"],
+    events: ["messageCreate","clientReady","interactionCreate"],
     prefixes: ["s!"]
 })
 

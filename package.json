@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@tryforge/forgescript": "github:tryforge/ForgeScript#main",
+    "@tryforge/forgescript": "^2.5.0",
     "chalk": "^5.4.1",
     "dotenv": "^16.5.0",
     "express": "^5.1.0"
@@ -11,7 +11,6 @@
   "name": "faizen-bot-stuff",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NotFaizen/Sadge-Bot.git"
