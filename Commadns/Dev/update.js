@@ -8,6 +8,5 @@ module.exports = {
     $updateapplicationcommands
     $chalkLog[$commandCount commands updated :D;green;bold]
     $chalkLog[$applicationCommandCount slash commands updated :D;green;bold]
-    $chalkLog[Command update failed. Error: $error;red;bold]
-    $!editMessage[$channelID;$get[msg];Commands updated!]`,
+    $!editMessage[$channelID;$get[msg];$codeBlock[+ $commandCount commands updated :D \n+ $applicationCommandCount commands updated :D;diff]]`,
 }
